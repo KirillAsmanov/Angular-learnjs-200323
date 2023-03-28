@@ -1,0 +1,19 @@
+/*h1 {color: blue;}
+:host {
+    display: block;
+    background: aqua;
+}
+
+:host ::ng-deep h1 {
+    color: blueviolet;
+}
+*/
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.shop-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}

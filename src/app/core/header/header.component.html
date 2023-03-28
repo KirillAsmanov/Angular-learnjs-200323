@@ -1,0 +1,26 @@
+<!-- <h1 id="test"> -->
+<!-- {{1+1}} -->
+<!-- {{'test' + 'con'}} -->
+<!-- {{this.title}} -->
+<!-- {{this.window}} -->
+<!-- </h1> -->
+<mat-toolbar color="primary">
+    <button 
+    mat-icon-button 
+    class="example-icon" 
+    aria-label="Example icon-button with menu icon"
+    (click)="onClick($event)"
+    >
+        <mat-icon>menu</mat-icon>
+    </button>
+    <!-- <img class="shop-icon" src="{{iconSrc}}"> -->
+    <img class="shop-icon" [src]="iconSrc">
+    <span>Магазин говна</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+    </button>
+</mat-toolbar>
